@@ -10,7 +10,7 @@ export default function Home() {
         </figure>
         <h1 className='my-8 text-3xl font-bold text-center'><Link href="http://jkbro.dev">jkbro.dev</Link></h1>
         <section id="links" className="flex flex-col justify-center w-full gap-3 mx-auto md:w-1/2">
-            {LINKS.map((link) => <Link href={link.url} key={link.name} className='p-4 font-bold text-center no-underline transition-all rounded-lg bg-amber-500 hover:bg-amber-600 '>{link.name}</Link>)}
+            {LINKS.map((link) => <Link href={link.url} key={link.name} className='p-4 font-bold text-center no-underline transition-all rounded-2xl bg-amber-600 hover:bg-amber-500 hover:scale-[101%]'>{link.name}</Link>)}
         </section>
     </main>
   )
