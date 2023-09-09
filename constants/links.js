@@ -27,7 +27,10 @@ export const LINKS = [
 		name: "Twitch",
 		url: "https://www.twitch.tv/xjkbro/",
 	},
-
+	{
+		name: "Kick",
+		url: "https://www.kick.com/jkbro/",
+	},
 	{
 		name: "Unsplash",
 		url: "https://www.unsplash.com/@jkdelara/",
